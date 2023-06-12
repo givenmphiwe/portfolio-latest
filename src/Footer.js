@@ -4,7 +4,6 @@ import {
   FaFacebook,
   FaGit,
   FaGithub,
-  FaInstagram,
   FaLinkedin,
   FaPhone,
   FaTwitter,
