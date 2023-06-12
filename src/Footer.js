@@ -1,8 +1,6 @@
 import "./footer.css";
 import {
   FaEnvelope,
-  FaFacebook,
-  FaGit,
   FaGithub,
   FaLinkedin,
   FaPhone,
