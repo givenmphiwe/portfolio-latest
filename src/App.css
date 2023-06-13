@@ -172,14 +172,14 @@ button {
 
 .container-consult {
   height: 150px;
-  background-color: #4c89a1;
+  background-color: #cfcfcf;
   margin-bottom: 30px;
 }
 .container-consult button {
   margin-top: 55px;
   margin-left: 45%;
   color: #fff;
-  background: #21a4d84d 0% 0% no-repeat padding-box;
+  background: #1d5377 0% 0% no-repeat padding-box;
   font: normal normal medium 18px/21px Poppins;
   width: 250px;
   height: 68px;
@@ -187,7 +187,7 @@ button {
   border-radius: 10px;
   cursor: pointer;
   padding: 8px 10px;
-  border: 2px solid #32bff7;
+  border: 2px solid rgb(162, 220, 243);
   box-shadow: none;
   position: relative;
 }
@@ -208,6 +208,7 @@ button {
 
 .container-2 .card {
   position: relative;
+  cursor: pointer;
   max-width: 300px;
   height: 215px;
   background: #fff;

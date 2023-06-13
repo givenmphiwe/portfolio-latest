@@ -35,16 +35,16 @@ function Footer() {
         <div className="col">
           <h3>Social media</h3>
           <div className="social-icons">
-            <a href="" className="fab">
+            <a onClick={()=> window.open("https://github.com/givenmphiwe", "_blank")} className="fab">
               <FaGithub />
             </a>
-            <a href="" className="fab">
+            <a onClick={()=> window.open("https://www.linkedin.com/in/given-makhubela-356a30171", "_blank")} className="fab">
               <FaLinkedin />
             </a>
-            <a href="" className="fab">
+            <a onClick={()=> window.open("https://twitter.com/Given05351952?s=03", "_blank")} className="fab">
               <FaTwitter />
             </a>
-            <a href="" className="fab">
+            <a onClick={()=> window.open("https://wa.me/0720877233", "_blank")} className="fab">
               <FaWhatsapp />
             </a>
           </div>
@@ -53,7 +53,7 @@ function Footer() {
       <hr />
       <p className="copyright">
         Given Makhubela &copy; 2023 - All Rights Reserved | Designed by{" "}
-        <a className="pgefinancial" href="#">
+        <a className="pgefinancial" onClick={()=> window.open("https://github.com/givenmphiwe", "_blank")}>
           Given.dev
         </a>
       </p>

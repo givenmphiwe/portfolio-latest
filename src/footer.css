@@ -4,7 +4,7 @@ footer{
     width: 100%;
     /*Add margin here*/
     bottom: 0;
-    background: linear-gradient(to right, #269ead, #166ca5);
+    background: linear-gradient(to right, #273c3f, #1d5377);
     color: #fff;
     padding: 100px 0 30px;
     border-top-left-radius: 0px;
@@ -68,7 +68,7 @@ footer{
     cursor: pointer;
   }
   .social-icons .fab:hover{
-    color: #2d12c4;
+    color: #f82c2c;;
   }
   hr{
     width: 90%;
@@ -99,5 +99,8 @@ footer{
   }
   .pgefinancial{
     text-decoration: none;
-    color: #fff;
+    color: #f82c2c;
+  }
+  .pgefinancial:hover{
+    cursor: pointer;
   }
