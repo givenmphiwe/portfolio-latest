@@ -33,7 +33,7 @@ function App() {
           walking or playing video games.
           <br />
           <br />
-          <a href="#">
+          <a href="Given Makhubela Resume.pdf" download="Given Makhubela Resume.pdf">
             <b>View my Resume --&gt;</b>
           </a>
         </p>
