@@ -6,8 +6,11 @@ import landingImg from "./assets/landing.png";
 import ssg from "./assets/ssg icon.png";
 import page from "./assets/Page icon.png";
 import biztweak from "./assets/biztweak logo.png";
-import bets from "./assets/136bets icon.png";
-import bets2 from "./assets/136bets.jpg"
+import bets from "./assets/bets.png";
+import siswati from "./assets/siswati.png";
+import abhi from "./assets/Abhii.jpg";
+import hambisa from "./assets/hambisa.png";
+import teleios from "./assets/teleios.webp";
 
 function App() {
   return (
@@ -68,7 +71,7 @@ function App() {
         <div
           onClick={() =>
             window.open(
-              "https://pagefinancialservices-8ba30.web.app/",
+              "https://pagefinancialservice.com/",
               "_blank"
             )
           }
@@ -152,7 +155,7 @@ function App() {
           className="card"
         >
           <div className="imgbox">
-            <img src="{bookkeeping}" alt="Png.png" />
+            <img src={siswati} alt="Png.png" />
           </div>
           <div className="content">
             <p>
@@ -179,14 +182,14 @@ function App() {
           className="card"
         >
           <div className="imgbox">
-            <img src="{payroll}" alt="Png.png" />
+            <img src={teleios} alt="Png.png" />
           </div>
           <div className="content">
             <p>
               <h3>Teleios</h3>
-              offer several 24-hour services to maintain trouble-free fire and
-              security systems that include: fire and intrusion monitoring,
-              remote administration and troubleshooting and repair
+              24-hour services to maintain trouble-free fire and security
+              systems that include: fire and intrusion monitoring. remote
+              administration
             </p>
             <br />
             <p>
@@ -205,14 +208,13 @@ function App() {
           className="card"
         >
           <div className="imgbox">
-            <img src="developer} " alt="Png.png" />
+            <img className="pageimg" src={abhi} alt="Png.png" />
           </div>
           <div className="content">
             <p>
               <h3>Abhii</h3> a strategy board game that two to three people can
               play. The players are in the race to get home, where they movement
-              is determined by the single dice.This game also support offline
-              mode
+              is determined by the single dice.
             </p>
             <br />
             <p>
@@ -223,16 +225,22 @@ function App() {
 
         <div className="card">
           <div className="imgbox">
-            <img src="{incometax} " alt="Png.png" />
+            <img className="pageimg" src={hambisa} alt="Png.png" />
           </div>
           <div className="content">
             <p>
               <h3>Hambisa user & Driver</h3>
-              Income Tax Number and VAT number are two totally different tax
-              types. Income tax registration is compulsory whereas a VAT
-              registration number depends on quite a few factors. The business
-              must however be registered for income tax before a tax clearance
-              or VAT number can be applied for
+              Its an app to send parcels to another person using public
+              transport to deliver it. it uses google maps api's to track where
+              the parcel is at.
+              <br />
+              <a href="hambisa--.apk" download="Hambisa.apk">
+                <b>Download User App</b>
+              </a>
+              <br />
+              <a href="hambisa--driver.apk" download="Hambisa Driver.apk">
+                <b>Download Driver App</b>
+              </a>
             </p>
           </div>
         </div>
