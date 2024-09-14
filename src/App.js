@@ -8,9 +8,9 @@ import page from "./assets/Page icon.png";
 import biztweak from "./assets/biztweak logo.png";
 import bets from "./assets/bets.png";
 import siswati from "./assets/siswati.png";
-import abhi from "./assets/Abhii.jpg";
+import jotgenie from "./assets/jotgenie.png";
 import hambisa from "./assets/hambisa.png";
-import teleios from "./assets/teleios.webp";
+import mapo from "./assets/mapo.png";
 
 function App() {
   return (
@@ -33,7 +33,10 @@ function App() {
           walking or playing video games.
           <br />
           <br />
-          <a href="Given Makhubela Resume.pdf" download="Given Makhubela Resume.pdf">
+          <a
+            href="Given Makhubela Resume.pdf"
+            download="Given Makhubela Resume.pdf"
+          >
             <b>View my Resume --&gt;</b>
           </a>
         </p>
@@ -46,20 +49,20 @@ function App() {
       <div className="container-2">
         <h3></h3>
         <div
-          onClick={() => window.open("https://www.biztweak.org.za/", "_blank")}
+          onClick={() =>
+            window.open("https://jotgenie.com/en/transcribe", "_blank")
+          }
           className="card"
         >
           <div className="imgbox">
-            <img src={biztweak} alt="Png.png" />
+            <img className="pageimg" src={jotgenie} alt="Png.png" />
           </div>
           <div className="content">
             <p>
-              <h3>Biztweak</h3>
-              Web app to make entrepreneurship easier. Being an entrepreneur is
-              an interesting journey for sure, especially when you don’t know
-              what you don’t know about your business or business idea. Not
-              knowing the right information at the right time has caused failure
-              in many businesses.
+              <h3>jotgenie</h3>
+              Supercharge your note-taking with Jotgenie™ our AI notetaking
+              assistant that helps you automatically: -Generate summaries
+              -Extract key points -Transcribe your lectures Per recording
             </p>
             <br />
             <p>
@@ -69,24 +72,19 @@ function App() {
         </div>
 
         <div
-          onClick={() =>
-            window.open(
-              "https://pagefinancialservice.com/",
-              "_blank"
-            )
-          }
+          onClick={() => window.open("https://sales.mapo-int.com/", "_blank")}
           className="card"
         >
           <div className="imgbox">
-            <img className="pageimg" src={page} alt="Png.png" />
+            <img className="pageimg" src={mapo} alt="Png.png" />
           </div>
           <div className="content">
             <p>
-              <h3>Page Financial Services</h3>
-              Website to assist business with solving challenges that migh arise
-              when starting or when running your businnes, Page Provides
-              services bookkeeping annual financial statements to web
-              development and many more
+              <h3>Sales Solution</h3>
+              Sales consultants can only perform if they have the tool required
+              to close the deal. MAPO is developing unique services to sales
+              people that put all the correct information of their products and
+              that of their competitors
             </p>
             <br />
             <p>
@@ -117,19 +115,16 @@ function App() {
         </div>
 
         <div
-          onClick={() =>
-            window.open("https://onethreesix-21ba8.web.app/#", "_blank")
-          }
+          onClick={() => window.open("https://mapo-int.com/", "_blank")}
           className="card"
         >
           <div className="imgbox">
-            <img className="pageimg" src={bets} alt="Png.png" />
+            <img className="pageimg" src={mapo} alt="Png.png" />
           </div>
           <div className="content">
             <p>
-              <h3>136Bets</h3>
-              Is a mock of a betting app just some simple design and expressing
-              love of software development in the app
+              <h3>MAPO website</h3>
+              Re_Built the mapo website to the stunning website
             </p>
             <br />
             <p>
@@ -145,6 +140,63 @@ function App() {
 
       <div className="container-2">
         <h3></h3>
+       
+
+        <div
+          onClick={() =>
+            window.open(
+              "https://play.google.com/store/apps/details?id=com.mapo.mapomobileapp",
+              "_blank"
+            )
+          }
+          className="card"
+        >
+          <div className="imgbox">
+            <img src={mapo} alt="Png.png" />
+          </div>
+          <div className="content">
+            <p>
+              <h3>MAPO SOFTWARE SOLUTION</h3>
+              Researching models and specifications online was easy but you
+              needed more. How much it would cost to service the vehicle? What
+              would the maintenance expenditure calculate to with the mileage
+              you do per year? How will the model's value depreciate? In all,
+              you needed to know the Total Cost of ownership of my dream car?
+            </p>
+            <br />
+            <p>
+              <b>Click to view</b>
+            </p>
+          </div>
+        </div>
+
+        <div
+          onClick={() =>
+            window.open(
+              "https://play.google.com/store/apps/details?id=com.jotgenie_mobile&hl=en_ZA",
+              "_blank"
+            )
+          }
+          className="card"
+        >
+          <div className="imgbox">
+            <img className="pageimg" src={jotgenie} alt="Png.png" />
+          </div>
+          <div className="content">
+            <p>
+              <h3>Jotgenie</h3>Jotgenie generates comprehensive summaries and
+              action items for your audio recordings (lectures & meetings),
+              allowing you to focus on the discussion rather than documentation.
+              Jotgenie is very easy to use. Simply record your audio and then
+              wait for an email containing your summaries and action items.
+            </p>
+            <br />
+            <p>
+              <b>Click to view</b>
+            </p>
+          </div>
+        </div>
+
         <div
           onClick={() =>
             window.open(
@@ -164,57 +216,6 @@ function App() {
               and exciting manner.Siswati dictionary it's designed to help you
               improve your learning of siswati as it also translate siswati to
               english.
-            </p>
-            <br />
-            <p>
-              <b>Click to view</b>
-            </p>
-          </div>
-        </div>
-
-        <div
-          onClick={() =>
-            window.open(
-              "https://play.google.com/store/apps/details?id=given.teleios&hl=en&gl=US",
-              "_blank"
-            )
-          }
-          className="card"
-        >
-          <div className="imgbox">
-            <img src={teleios} alt="Png.png" />
-          </div>
-          <div className="content">
-            <p>
-              <h3>Teleios</h3>
-              24-hour services to maintain trouble-free fire and security
-              systems that include: fire and intrusion monitoring. remote
-              administration
-            </p>
-            <br />
-            <p>
-              <b>Click to view</b>
-            </p>
-          </div>
-        </div>
-
-        <div
-          onClick={() =>
-            window.open(
-              "https://play.google.com/store/apps/details?id=com.AmaCrop.Abhii&hl=en&gl=US",
-              "_blank"
-            )
-          }
-          className="card"
-        >
-          <div className="imgbox">
-            <img className="pageimg" src={abhi} alt="Png.png" />
-          </div>
-          <div className="content">
-            <p>
-              <h3>Abhii</h3> a strategy board game that two to three people can
-              play. The players are in the race to get home, where they movement
-              is determined by the single dice.
             </p>
             <br />
             <p>
