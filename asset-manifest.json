@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/portfolio-latest/static/css/main.b386545e.css",
-    "main.js": "/portfolio-latest/static/js/main.79fe2a3f.js",
+    "main.js": "/portfolio-latest/static/js/main.a9087e5e.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-latest/static/js/787.1ed0c42c.chunk.js",
     "static/media/landing.png": "/portfolio-latest/static/media/landing.6b2446f11fbbd00dea8a.png",
     "static/media/mapo.png": "/portfolio-latest/static/media/mapo.6629a351d619dd557bda.png",
     "static/media/Page icon.png": "/portfolio-latest/static/media/Page icon.289b84ab16284ac7f188.png",
     "static/media/hambisa.png": "/portfolio-latest/static/media/hambisa.3acfeffc5c231838c78d.png",
     "static/media/jotgenie.png": "/portfolio-latest/static/media/jotgenie.9a97e4b906994c33c722.png",
+    "static/media/Ecom-Icon.png": "/portfolio-latest/static/media/Ecom-Icon.29b21a02787f94a87335.png",
     "static/media/ssg icon.png": "/portfolio-latest/static/media/ssg icon.5910fac058d022d1b713.png",
     "static/media/biztweak logo.png": "/portfolio-latest/static/media/biztweak logo.07435e92192bd6f3ba68.png",
     "static/media/siswati.png": "/portfolio-latest/static/media/siswati.8912eddffc10f82c6fb4.png",
     "index.html": "/portfolio-latest/index.html",
     "main.b386545e.css.map": "/portfolio-latest/static/css/main.b386545e.css.map",
-    "main.79fe2a3f.js.map": "/portfolio-latest/static/js/main.79fe2a3f.js.map",
+    "main.a9087e5e.js.map": "/portfolio-latest/static/js/main.a9087e5e.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-latest/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b386545e.css",
-    "static/js/main.79fe2a3f.js"
+    "static/js/main.a9087e5e.js"
   ]
 }
