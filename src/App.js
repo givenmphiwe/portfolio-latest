@@ -11,6 +11,7 @@ import siswati from "./assets/siswati.png";
 import jotgenie from "./assets/jotgenie.png";
 import hambisa from "./assets/hambisa.png";
 import mapo from "./assets/mapo.png";
+import ecomElevate from "./assets/Ecom-Icon.png";
 
 function App() {
   return (
@@ -48,6 +49,61 @@ function App() {
 
       <div className="container-2">
         <h3></h3>
+
+        <div
+          onClick={() =>
+            window.open("https://biztweak.org.za/public/about", "_blank")
+          }
+          className="card"
+        >
+          <div className="imgbox">
+            <img className="pageimg" src={biztweak} alt="Png.png" />
+          </div>
+          <div className="content">
+            <h3>biztweak</h3>
+            <p>
+              Introducing an innovative ecosystem designed to empower
+              entrepreneurs as they embark on their business journey. Our
+              platform offers comprehensive surveys tailored to identify
+              opportunities and challenges, providing valuable insights for
+              every aspiring business owner. Plus, we connect entrepreneurs with
+              expert QH consultants who are dedicated to guiding them through
+              every step of the process. With our support, entrepreneurs can
+              confidently navigate the complexities of the business world and
+              unlock their full potential.
+            </p>
+
+            <br />
+            <p>
+              <b>Click to view</b>
+            </p>
+          </div>
+        </div>
+
+        <div
+          onClick={() => window.open("https://ecomlevate.com/", "_blank")}
+          className="card"
+        >
+          <div className="imgbox">
+            <img className="pageimg" src={ecomElevate} alt="Png.png" />
+          </div>
+          <div className="content">
+            <h3>EcomElevate</h3>
+            <p>
+              EcomElevate the ecommerce stores eco-system. It offers insightful
+              performance analytics and a selection of beautifully crafted
+              templates to choose from. For those with a unique vision,
+              EcomElevate features a flexible drag-and-drop system, allowing for
+              full customization to bring their ideas to life.
+            </p>
+
+            <br />
+            <p>
+              <b>Click to view</b>
+            </p>
+          </div>
+        </div>
+
         <div
           onClick={() =>
             window.open("https://jotgenie.com/en/transcribe", "_blank")
@@ -63,28 +119,6 @@ function App() {
               Supercharge your note-taking with Jotgenie™ our AI notetaking
               assistant that helps you automatically: -Generate summaries
               -Extract key points -Transcribe your lectures Per recording
-            </p>
-            <br />
-            <p>
-              <b>Click to view</b>
-            </p>
-          </div>
-        </div>
-
-        <div
-          onClick={() => window.open("https://sales.mapo-int.com/", "_blank")}
-          className="card"
-        >
-          <div className="imgbox">
-            <img className="pageimg" src={mapo} alt="Png.png" />
-          </div>
-          <div className="content">
-            <p>
-              <h3>Sales Solution</h3>
-              Sales consultants can only perform if they have the tool required
-              to close the deal. MAPO is developing unique services to sales
-              people that put all the correct information of their products and
-              that of their competitors
             </p>
             <br />
             <p>
@@ -140,7 +174,6 @@ function App() {
 
       <div className="container-2">
         <h3></h3>
-       
 
         <div
           onClick={() =>
