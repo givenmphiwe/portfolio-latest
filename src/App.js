@@ -106,7 +106,7 @@ function App() {
 
         <div
           onClick={() =>
-            window.open("https://jotgenie.com/en/transcribe", "_blank")
+            window.open("https://jotgenie.com/en/landing", "_blank")
           }
           className="card"
         >
@@ -295,6 +295,41 @@ function App() {
               <h3>136Bets</h3>
               Is a mock of a betting app just some simple design and expressing
               love of software development in the app
+            </p>
+            <br />
+            <p>
+              <b>Click to view</b>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="section-1" className="container-consult">
+        <button>Windows Desktop-App</button>
+      </div>
+
+      <div className="container-2">
+        <h3></h3>
+
+        <div
+          onClick={() =>
+            window.open(
+              "ms-windows-store://pdp/?productid=9NTN7PSTQQ1Z",
+              "_blank"
+            )
+          }
+          className="card"
+        >
+          <div className="imgbox">
+            <img className="pageimg" src={jotgenie} alt="Png.png" />
+          </div>
+          <div className="content">
+            <p>
+              <h3>Jotgenie</h3>Jotgenie generates comprehensive summaries and
+              action items for your audio recordings (lectures & meetings),
+              allowing you to focus on the discussion rather than documentation.
+              Jotgenie is very easy to use. Simply record your audio and then
+              wait for an email containing your summaries and action items.
             </p>
             <br />
             <p>
