@@ -305,6 +305,41 @@ function App() {
       </div>
 
       <div id="section-1" className="container-consult">
+        <button>IOS APP Projects</button>
+      </div>
+
+      <div className="container-2">
+        <h3></h3>
+
+        <div
+          onClick={() =>
+            window.open(
+              "https://apps.apple.com/za/app/jotgenie/id6460975927",
+              "_blank"
+            )
+          }
+          className="card"
+        >
+          <div className="imgbox">
+            <img className="pageimg" src={jotgenie} alt="Png.png" />
+          </div>
+          <div className="content">
+            <p>
+              <h3>Jotgenie</h3>Jotgenie generates comprehensive summaries and
+              action items for your audio recordings (lectures & meetings),
+              allowing you to focus on the discussion rather than documentation.
+              Jotgenie is very easy to use. Simply record your audio and then
+              wait for an email containing your summaries and action items.
+            </p>
+            <br />
+            <p>
+              <b>Click to view</b>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="section-1" className="container-consult">
         <button>Windows Desktop-App</button>
       </div>
 
@@ -338,6 +373,8 @@ function App() {
           </div>
         </div>
       </div>
+
+     
 
       <Footer />
     </>
